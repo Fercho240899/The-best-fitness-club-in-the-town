@@ -1,5 +1,5 @@
 -Fernando Castro Amaro
--demo Course of HTML CSS, Responsive Design Mobile First
+-demo Course of JavaScript, HTML, CSS, Responsive Design Mobile First
 
 watch project in react 😳👨‍💻👉❤️:  [https://fercho240899.github.io/The-best-fitness-club-in-the-town/](http://localhost:3000)
 
