@@ -27,6 +27,8 @@
     border-radius: 5px;
     color: white;
     justify-content: space-between;
+    box-shadow: 0px 1px 5px rgba(244, 137, 21, 0.5);
+    transition: all 400MS ease;
     
 }
 
@@ -64,4 +66,6 @@
     cursor: pointer;
     background: var(--planCard);
     cursor: pointer;
+    box-shadow: 5px 5px 30px rgba(244, 137, 21, 1);
+    transform: translateY(-3%);
 }

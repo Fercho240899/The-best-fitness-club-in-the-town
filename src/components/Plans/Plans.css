@@ -1,0 +1,116 @@
+.Plan-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: -4rem;
+    gap: 4rem;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.plans-header{
+    display: flex;
+    gap: 5rem;  /* para separar palabras*/
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    background: var(--caloryCard);
+    gap: 2rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    color: white;
+    width: 15rem;
+    box-shadow: 0px 1px 5px rgba(244, 137, 21, 0.5);
+    transition: all 200MS ease;
+}
+
+.plan:hover{
+    cursor: pointer;
+    background: var(--planCard);
+    cursor: pointer;
+    box-shadow: 5px 5px 30px rgba(244, 137, 21, 1);
+    transform: translateY(-8%);
+
+}
+
+.plan>:nth-child(2){ /*name*/  
+    background-color: var(--planCard);
+    transform: scale(1.1);
+}
+
+.plan>svg{
+    fill: var(--orange);
+    width: 3rem;
+    height: 3rem;
+}
+
+.plan>:nth-child(2){ /*name*/
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.plan>:nth-child(3){ /*price*/
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.plan>:nth-child(5){ /* see more benefits */
+    font-size: 0.9rem;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.feature>img{
+    width: 1rem;
+}
+
+.plans>:nth-child(2)>svg{ /*este es para poner el icon de corona en blanco*/
+    fill: white;
+} 
+
+.plans>:nth-child(1)>button{/*color de letra en el boton 1*/
+    color: orange;
+}
+.plans>:nth-child(2)>button{/*color de letra en el boton 2*/
+    color: orange;
+}
+.plans>:nth-child(3)>button{/*color de letra en el boton 3*/
+    color: orange;
+}
+
+
+.see-more-benefits{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.see-more-benefits>img{ /*imagen de -> */
+    width: 1rem;
+}
+
+
+
