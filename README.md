@@ -1,10 +1,6 @@
-# Curso-de-HTML-CSS-Dark-Mode-y-Responsive-Design-Mobile-First
-Curso de HTML, CSS y JS, redes sociales con cambio de pantalla oscuro y claro, así mismo adaptación de pantalla responsive,
-
 -Fernando Castro Amaro
 -demo Course of HTML CSS, Responsive Design Mobile First
 
-
 watch the live project: 👉 [https://fercho240899.github.io/The-best-fitness-club-in-the-town/](https://fercho240899.github.io/The-best-fitness-club-in-the-town/)
 
-![Fernando Castro Amaro](https://repository-images.githubusercontent.com/500018490/936e204c-40de-4427-93a0-89d14bc1fca0)
+![Fernando Castro Amaro](https://repository-images.githubusercontent.com/513019089/0793f6af-aef9-4a1a-84ed-baea1e64b4cd)
