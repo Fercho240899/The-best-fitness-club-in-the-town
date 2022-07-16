@@ -25,6 +25,20 @@
     gap: 3rem;
 }
 
+.plans-blur-1{
+    width: 32rem;
+    height: 23rem;
+    top: 12.5rem;
+    left: 0rem;
+}
+.plans-blur-2{
+    width: 32rem;
+    height: 23rem;
+    top: 12.5rem;
+    right: 0rem;
+}
+
+
 .plan{
     display: flex;
     flex-direction: column;
@@ -111,6 +125,7 @@
 .see-more-benefits>img{ /*imagen de -> */
     width: 1rem;
 }
+
 
 
 
