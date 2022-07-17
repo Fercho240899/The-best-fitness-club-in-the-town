@@ -1,8 +1,10 @@
 import React, { useRef } from "react";
 import "./Join.css";
 import emailjs from '@emailjs/browser';
+import {motion} from 'framer-motion'
 
 const Join = () => {
+    const transition = {type:'spring', duration: 2}
     const form = useRef()
 
     const sendEmail = (e) => {
@@ -30,12 +32,17 @@ const Join = () => {
                 <span className="stroke-text"> WITH US?</span>
             </div>
         </div>
-        <div className="right-j">
+        <motion.div 
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 0, x: -100 }}
+        transition={{ transition }}
+        className="right-j">
             <form ref={form} className="email-container" onSubmit={sendEmail}>
                 <input type="email" name="user_email" placeholder="Enter your Email address"/>
                 <button className="btn btn-j">Join Now</button>
             </form>
-        </div>
+        </motion.div>
 
     </div>
     
