@@ -69,3 +69,23 @@
     box-shadow: 5px 5px 30px rgba(244, 137, 21, 1);
     transform: translateY(-3%);
 }
+
+@media screen and (max-width: 768px) {
+    .Programs{
+        margin-top: 2rem;
+    }
+    .programs-header{
+        flex-direction: row;
+        gap: 1rem;
+        font-size: x-large;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15rem;
+    }
+
+    .program-categories{
+        display: grid;
+        grid-column-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

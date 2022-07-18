@@ -126,6 +126,29 @@
     width: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+    .Plan-container{
+        margin-top: 2rem;
+    }
 
+    .plans-header{
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.7rem;
+        color: white;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+    .plans{
+        display: grid;
+        padding: 0 2rem;
+        grid-column-gap: 50px;
+        grid-row-gap: 90px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+    
+} 
 

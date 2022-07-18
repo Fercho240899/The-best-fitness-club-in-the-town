@@ -59,3 +59,19 @@
     background: var(--darkGrey);
     color: black;
 }
+
+@media screen and (max-width: 768px) {
+    .Join{
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right-j{
+        padding: 2rem;
+    }
+}
+
+
